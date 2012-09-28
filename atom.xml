@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-09-28T18:29:54+01:00</updated>
+  <updated>2012-09-28T18:55:21+01:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction to Everyware]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/09/28/introduction-to-everyware/"/>
+    <updated>2012-09-28T18:54:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/09/28/introduction-to-everyware</id>
+    <content type="html"><![CDATA[<p>This is only a test. Look up Marcel Duchamp you fool!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Test]]></title>
