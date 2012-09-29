@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-09-28T20:32:14+01:00</updated>
+  <updated>2012-09-29T21:37:10+01:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -18,16 +18,24 @@
     <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/09/28/introduction-to-everyware/"/>
     <updated>2012-09-28T18:54:00+01:00</updated>
     <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/09/28/introduction-to-everyware</id>
-    <content type="html"><![CDATA[<p>This is only a test. Look up Marcel Duchamp you fool!</p>
+    <content type="html"><![CDATA[<p>Quick feelings update: Out of the three module introduction sessions, Gianni&#8217;s <strong>Everyware</strong> pitch had been the first one to address my educational desires. It pays out to go with your gut every now and again it seems.</p>
+
+<p>Whilst out-in-the-open work with strangers has thus far only enabled me to produce less than mediocre work (I&#8217;m watching you Nutbean!), I am looking forward to the interfacultary collaboration nevertheless. After all, the subject of architecture is very dear to my heart and having a module that essentially requires you to pick up cyberpunk novels for research is more than welcome :></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Test]]></title>
+    <title type="html"><![CDATA[Hallo Wereld]]></title>
     <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/09/28/test/"/>
     <updated>2012-09-28T18:28:00+01:00</updated>
     <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/09/28/test</id>
-    <content type="html"><![CDATA[<p>Hello World</p>
+    <content type="html"><![CDATA[<pre><code>&gt; So here we go again
+&gt; Final stage of Digital Art &amp; Technology
+&gt; "Interaction Design" pathway
+&gt; I am Florian Brueckner 
+&gt; And this is my blog
+&gt; 
+</code></pre>
 ]]></content>
   </entry>
   
