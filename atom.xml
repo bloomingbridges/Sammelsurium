@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-10-08T01:22:22+01:00</updated>
+  <updated>2012-10-09T02:19:57+01:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Anxiety in Manhattan]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/09/anxiety-in-manhattan/"/>
+    <updated>2012-10-09T01:48:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/09/anxiety-in-manhattan</id>
+    <content type="html"><![CDATA[<p>Following up on the idea from last week&#8217;s session of making a game that will let people experience <em>Generalized Anxiety Disorder</em> first-hand, it is now at the time to talk details, visual style in particular.</p>
+
+<p>Simply put, the objective is to walk from the one side of the screen to the other, like in many many other games before. Thankfully, our idea requires just a single platform and only minor modifications to the game engine ;) Now here&#8217;s the catch: Your avatar will die horrible deaths along the way (being stomped by <em>Godzilla</em>, struck by lightning, hit by a bus) at seemingly random moments. This will -  hopefully - make the player (i.e. you) hesitate to progress in the game, thus creating anxiety of the simple task that is crossing the street. Eventually you pass the crossing without any problems whatsoever and only then will you notice that all previous attempts of doing so took place in the character&#8217;s imagination only. The final screen will show some information on the disorder in order - pardon - to raise awareness.</p>
+
+<p>Watson seemed pretty keen to try making some 8-bit retro graphics for the game, which is fine by me as no graphic style seems either more or less suitable for this kind of &#8220;game&#8221;. In order to put the player in a familiar (at least iconic), peaceful and realistic environment I suggested to model the screen after a crossing in New York City. Here&#8217;s moodboard for the setting that I have in mind:</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/anxiety_moodboard1.jpg" alt="Setting moodboard" /></p>
+
+<p>And another one that depicts a variety of retro styles that we might end up with:</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/anxiety_moodboard2.jpg" alt="Visual style moodboard" /></p>
+
+<p>Finally, a snapshot of our progress for the dev diary:</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/anxiety_preview.png" alt="Visual style moodboard" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Game Design 101]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/08/game-design-101/"/>
+    <updated>2012-10-08T01:23:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/08/game-design-101</id>
+    <content type="html"><![CDATA[<p>Tough luck. As students in the year prior complained about having to do too much programming for this module, this time around there will be next to none (at least for the first couple of weeks). Instead of relying on existing Flash skills to create a portfolio-extending piece of interactive art that can be put up on the internet and enjoyed by many, we will be working with Simon&#8217;s JavaScript-based (and rather limited) <a href="https://github.com/DAT303/PUP-Game-Engine">PUP Game Engine</a> for the time being.</p>
+
+<p>And it doesn&#8217;t end here, we also get to do ALL THE THINGS that I spent most of my free time doing anyway: thinking up ideas for games. Heck, I even do it in the shower..
+So anyway, let&#8217;s approach this with an open mind and play the game, if you pardon my pun.
+We employed a variety of techniques to come up with ideas for a small game, looking at random wikipedia articles being one of them.</p>
+
+<p>Our group stumbled upon the following:</p>
+
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Varicella_(video_game)">Varicella</a> (a text-adventure set in Venice during the Renaissance)</li>
+<li>South-East Asia</li>
+<li><a href="http://en.wikipedia.org/wiki/Generalized_anxiety_disorder">Generalized anxiety disorder</a> (a disorder akin to severe paranoia)</li>
+</ul>
+
+
+<p>And those combined into the worst possible idea for a game imaginable resulted in:</p>
+
+<blockquote><p>&#8220;An Italian piece of interactive fiction where you have to go into the city of Venice so you can witness your daughter giving birth to her child. Unfortunately you suffer from Alzheimer&#8217;s disease, so throughout the game you forget about commands, items you collected, your whereabouts or even how to spell.&#8221;</p></blockquote>
+
+<p>The one-legged hamster that has to prevent the JFK assassination from happening was another one of my favourites. All jokes aside, I think we&#8217;ll be sticking to our original idea, which I happen to talk about in more detail in another blog post.</p>
+
+<p>Outside the classroom I came across this gem, hidden deep within the depths of the University library: <em>How to make Things with Videogames</em> by Ian Bogost. So far I can only recommend it.</p>
+
+<p><img src="http://www.creativeapplications.net/wp-content/uploads/2012/01/bogost-videogames-cover-640x480.jpg" alt="book cover" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introduction to Everyware]]></title>
