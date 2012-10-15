@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- include head -->
+    
+
+<meta charset="utf-8">
+<title>A twitter client for birds - blooming bridges gradually graduating</title>
+<meta name="author" content="Florian Brueckner">
+<meta name="description"
+      content="A twitter client for birds So how does one go about creating an interface for a twitchy little animal? We figured all it needs is a familiar &hellip;">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="canonical" href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/07/a-twitter-client-for-birds">
+<link href="/Sammelsurium/favicon.png" rel="icon">
+<link href="/Sammelsurium/stylesheets/screen.css"
+      media="screen, projection"
+      rel="stylesheet"
+      type="text/css">
+<link href="/Sammelsurium/atom.xml"
+      rel="alternate"
+      title="blooming bridges gradually graduating"
+      type="application/atom+xml">
+
+
+<script src="/Sammelsurium/javascripts/modernizr-2.0.js" type="text/javascript"></script>
+<script src="/Sammelsurium/javascripts/ender.js" type="text/javascript"></script>
+<script src="/Sammelsurium/javascripts/octopress.js" type="text/javascript"></script>
+
+
+
+    <!-- /include -->
+  </head>
+  <body>
+    <div id="wrapper">
+
+      <header role="banner" class="site_metas">
+	<!-- include header -->
+	
+<hgroup>
+  <h1><a href="/Sammelsurium/">blooming bridges gradually graduating</a></h1>
+  
+  <h2>Final Year Digital Art and Technology Blog</h2>
+  
+  <p>
+  <span class="catprefix">DAT30</span><a href="/Sammelsurium/blog/categories/dat301/" title="Category archive">1</a> <a href="/Sammelsurium/blog/categories/dat302/" title="Category archive">2</a> <a href="/Sammelsurium/blog/categories/dat303/" title="Category archive">3</a> <a href="/Sammelsurium/blog/categories/dat305/" title="Category archive">5</a> <a href="/Sammelsurium/blog/categories/dat307/" title="Category archive">7</a> — <a href="http://www.bloomingbridges.co.uk/">bloomingbridges.co.uk</a></p>
+</hgroup>
+
+	<!-- /include -->
+        <!-- include social_service_links -->
+	
+
+        <!-- /include -->
+      </header>
+
+      <div id="content">
+	<!-- content -->
+	
+
+  
+
+
+<article class="entry" role="article">
+
+  <header>
+    <h2 class="entry_title">A twitter client for birds</h2>
+    
+  </header>
+
+  <div class="entry_content"><p><img src="https://dl.dropbox.com/u/998319/DAT/birdhouse_infrographic.jpg" alt="birdhouse design" /></p>
+
+<p>So how does one go about creating an interface for a twitchy little animal? We figured all it needs is a familiar environment (a birdhouse), a handful of seeds and a tiny microphone. Thanks to Anish&#8217;s connections we got the housing covered, the sound sensor we borrowed from the <em>i-DAT</em> office. The birdhouse turned out a little bigger than expected. Field tests will show whether we have to find another &#8220;target audience&#8221;;</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_development.jpg" alt="birdwire development" /></p>
+
+<p>A first dirty implementation of a Morse code interpreter in Processing revealed a fundamental problem with the approach. A quick recap. In Morse, the characters are distinguished by a unique sequence of dots (DIT) and dashes (DAHs, three times the length of a DIT). To signal the end of a character you pause for the length of three DITs or one DAH, significantly longer for a word break. This all requires timing, which the birds don&#8217;t necessarily care for, so the pause length needs to be variable.</p>
+
+<p>In version #1 every sound above a certain threshold would generate a DIT. I would start listening for periods of pauses until I picked up a new peck. After a certain amount of inactivity I will insert a space character. As some characters end on DITs and others on DITs plus two pauses I will never be able to tell what the last character of the word was, this way the birdies only ever get to choose from half of the letters available.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_screenshot.png" alt="birdwire v.0.1 screenshot" /></p>
+
+<p>I propose another algorithm that requires two different inputs, they may even come from the same sensor just using slightly different thresholds. It also wouldn&#8217;t hurt to ensure that at least one character is detected for every input session. If the bird flies off before the tweet is finished, should it be sent out anyway? Should incoming data be collected, averaged and thresholds dynamically adjusted according to different species of birds? To answer these questions we need to test it out in the open, which isn&#8217;t exactly feasible for next week. Unless someone&#8217;s got a 20m long USB extension cable that is?</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_puppet.jpg" alt="birdwire finger puppet" /></p>
+</div>
+
+  <footer>
+    <p class="meta">
+
+      
+
+      
+      <time datetime="2012-10-07 03:22:00 +0100" pubdate>Oct 7<span>th</span>, 2012</time>
+      
+
+      
+      <span class="categories">
+	<a class='category' href='/Sammelsurium/blog/categories/dat301/'>DAT301</a>
+      </span>
+      
+
+    </p>
+
+    
+    <div class="sharing">
+
+      
+
+      
+
+      
+    </div>
+    
+
+    
+
+  </footer>
+  
+</div>
+
+	<!-- /content -->
+      </div>
+
+      <footer role="contentinfo">
+	<!-- include footer -->
+	<p>
+  2012 - Florian Brueckner - <a title="feed" href="http://bloomingbridges.github.com/Sammelsurium/atom.xml">Feed</a> - 
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+	<!-- /include -->
+      </footer>
+      
+      <!-- include after_footer -->
+      
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+      <!-- /include -->
+
+    </div>
+  </body>
+</html>

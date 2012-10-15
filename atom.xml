@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-10-09T02:19:57+01:00</updated>
+  <updated>2012-10-15T05:14:08+01:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Birdwire]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/14/birdwire/"/>
+    <updated>2012-10-14T23:47:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/14/birdwire</id>
+    <content type="html"><![CDATA[<p>Thanks to Ben and Phil we now got a nice little website featuring an informative short clip up <a href="http://www.benashman.co.uk/p/birdwire">online</a>. You can follow the latest and breaking chitter via <a href="http://www.twitter.com/birdwireapp">@birdwireapp</a>.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_site.png" alt="birdwire website" /></p>
+
+<p>Meanwhile I&#8217;ve been busy refactoring my code and adding a couple of features. For instance you can now flip a switch in the interface and the interpreter will match your input against a dictionary and try to make sense of it. This will make for a much more meaningful output.</p>
+
+<p>Furthermore can the Arduino&#8217;s sensor thresholds and other options be set dynamically from within the Processing sketch.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_sketch.png" alt="birdwire beta screenshot" /></p>
+
+<p>There are still a couple of edge cases and minor bugs that need my attention, but it will do for the presentation tomorrow. Once I&#8217;m happy I shall release the code to the general public. So if you&#8217;re keen on trying it out for yourself, you can either come along tomorrow, or simply keep an eye on my <a href="http://www.github.com/bloomingbridges">GitHub</a> ;)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Anxiety in Manhattan]]></title>
@@ -62,9 +81,73 @@ We employed a variety of techniques to come up with ideas for a small game, look
 
 <p>The one-legged hamster that has to prevent the JFK assassination from happening was another one of my favourites. All jokes aside, I think we&#8217;ll be sticking to our original idea, which I happen to talk about in more detail in another blog post.</p>
 
-<p>Outside the classroom I came across this gem, hidden deep within the depths of the University library: <em>How to make Things with Videogames</em> by Ian Bogost. So far I can only recommend it.</p>
+<p>As a final thought experiment we&#8217;ve been asked to try and combine our two favourite games and think of how something like that could actually made possible. In my case that would be <em>Thirty Flights of Loving</em> and <em>Wipeout</em>, a narrative-heavy racing game in which you hardly ever get to control a vehicle. Oh and of course jumpcuts! :D</p>
+
+<p>Later on I came across this gem by accident, hidden deep within the depths of the University library: <em>How to make Things with Videogames</em> by Ian Bogost. So far I can only recommend it.</p>
 
 <p><img src="http://www.creativeapplications.net/wp-content/uploads/2012/01/bogost-videogames-cover-640x480.jpg" alt="book cover" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A twitter client for birds]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/07/a-twitter-client-for-birds/"/>
+    <updated>2012-10-07T03:22:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/07/a-twitter-client-for-birds</id>
+    <content type="html"><![CDATA[<p><img src="https://dl.dropbox.com/u/998319/DAT/birdhouse_infrographic.jpg" alt="birdhouse design" /></p>
+
+<p>So how does one go about creating an interface for a twitchy little animal? We figured all it needs is a familiar environment (a birdhouse), a handful of seeds and a tiny microphone. Thanks to Anish&#8217;s connections we got the housing covered, the sound sensor we borrowed from the <em>i-DAT</em> office. The birdhouse turned out a little bigger than expected. Field tests will show whether we have to find another &#8220;target audience&#8221;;</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_development.jpg" alt="birdwire development" /></p>
+
+<p>A first dirty implementation of a Morse code interpreter in Processing revealed a fundamental problem with the approach. A quick recap. In Morse, the characters are distinguished by a unique sequence of dots (DIT) and dashes (DAHs, three times the length of a DIT). To signal the end of a character you pause for the length of three DITs or one DAH, significantly longer for a word break. This all requires timing, which the birds don&#8217;t necessarily care for, so the pause length needs to be variable.</p>
+
+<p>In version #1 every sound above a certain threshold would generate a DIT. I would start listening for periods of pauses until I picked up a new peck. After a certain amount of inactivity I will insert a space character. As some characters end on DITs and others on DITs plus two pauses I will never be able to tell what the last character of the word was, this way the birdies only ever get to choose from half of the letters available.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_screenshot.png" alt="birdwire v.0.1 screenshot" /></p>
+
+<p>I propose another algorithm that requires two different inputs, they may even come from the same sensor just using slightly different thresholds. It also wouldn&#8217;t hurt to ensure that at least one character is detected for every input session. If the bird flies off before the tweet is finished, should it be sent out anyway? Should incoming data be collected, averaged and thresholds dynamically adjusted according to different species of birds? To answer these questions we need to test it out in the open, which isn&#8217;t exactly feasible for next week. Unless someone&#8217;s got a 20m long USB extension cable that is?</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_puppet.jpg" alt="birdwire finger puppet" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[-- --- •-• ••• •   -•-• --- -•• •]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/02/morse-code/"/>
+    <updated>2012-10-02T23:03:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/02/morse-code</id>
+    <content type="html"><![CDATA[<p>To kick off <em>Real-time</em> we were asked to work on a series of mini projects that involve sensory input and the good old Arduino. When thinking about what invisible data source I&#8217;d like to give a &#8216;voice&#8217;, the first thing that comes to my mind is <em>silence</em>. I like the idea of rewarding people with visuals under the rare moments of complete silence.</p>
+
+<p>After <em>Lee Nutbean</em> introduced us to the <a href="http://www.i-dat.org/eco-os-workshop-ecoid-prototype/">ecoid</a>, a self-sustaining sensor kit that transmits its collected data wirelessly, I fondled with the idea of installing a couple of speakers in the shape of birdhouses around campus.</p>
+
+<p>The speakers would continously play back lists of messages encoded in morse, a series of sounds that only the ones in the know would be able to make sense of. It shouldn&#8217;t be too hard to write an app that would listen to the beeps and decode the messages, or even feed into the system by lighting up the flash on the phone camera in time. Thus creating some kind of local area secret pigeonhole system.</p>
+
+<p>I&#8217;ve been meaning to learn <a href="http://en.wikipedia.org/wiki/Morse_code">Morse Code</a> ever since I fell for Google&#8217;s brilliant <a href="http://www.huffingtonpost.com/2012/04/01/gmail-tap-google-april-fools-day_n_1394635.html">April Fools&#8217; joke</a> of 2012. In my mind there was no doubt that the Morse Code keyboard was a brilliant idea.</p>
+
+<p>Ultimately we came up with another idea in our group that utilises Morse in a different way: We are going to build a twitter client. For birds. And it&#8217;s going to be called <em>birdwire</em>.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_logo.png" alt="birdwire logo" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Inspiration: Visualising Sound]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/01/inspiration-visualising-sound/"/>
+    <updated>2012-10-01T23:04:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/01/inspiration-visualising-sound</id>
+    <content type="html"><![CDATA[<p>Feeding into the discussion on the plethora of ways in which we can combine visuals and sound, which happens to tie in nicely with our reading material for the <em>Real-time</em> module (<a href="http://localhost:4000/Sammelsurium/blog/categories/dat301/">DAT301</a>), I would like to share with you two delightful examples of such practice:</p>
+
+<p>First in line is a literal interpretation of the song &#8216;Dynamics of the Subway&#8217; by the Japanese band <a href="http://www.haisuinonasa.com/">haisuinonasa</a> through <a href="http://www.creativeapplications.net/sound/keita-onishi-forest-and-trees-dynamics-of-the-subway/">Keita Onishi</a>. Starting out as a Fischinger-esque translation of beat and notes (kicks, piano chords) into simple geometric shapes, the graphical elements soon transform into an underground car racing through the most colourful world of black and white that I have ever witnessed.</p>
+
+<iframe src="http://player.vimeo.com/video/49367868?title=0&amp;byline=0&amp;portrait=1" width="100%" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p>The second piece I discovered when querying the university library database for the works of my favourite visual artist <a href="http://www.ryojiikeda.com/">Ryoji Ikeda</a>. His research project <a href="http://www.ryojiikeda.com/project/other/">cyclo. id vol.1</a> represents the other end of the spectrum, where stereo sound is interpreted in real-time through an oscilloscope and remapped onto different coordinates. Said tome is just an immense collection of such computationally-generated representations and thus not really interesting per se, yet the accompanying disc holds some rather fascinating animated examples.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/cyclo.gif" alt="cyclo." /></p>
+
+<p>I&#8217;ve been obsessed with Japanese design and visual culture as of late (if you couldn&#8217;t already tell), so the domination of Japanese artists potrayed in this post may not be entirely coincidental. In an attempt to learn at least the basic 48 kana I started playing <a href="http://www.hiraganapixelparty.com/HiraganaPixelParty.html">Hiragana Pixel Party</a>, a rhythm-based language acquisition game for iOS and Windows Phone. And take note, the university is offering a four-week beginner-level course in Japanese over the summer. Why am I telling you this? I could do with a learning partner in order to make it more fun, that&#8217;s all ^^</p>
 ]]></content>
   </entry>
   
