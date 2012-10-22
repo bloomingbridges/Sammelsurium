@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-10-21T20:02:26+01:00</updated>
+  <updated>2012-10-22T13:31:30+01:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -109,6 +109,23 @@ We employed a variety of techniques to come up with ideas for a small game, look
 <p>I propose another algorithm that requires two different inputs, they may even come from the same sensor just using slightly different thresholds. It also wouldn&#8217;t hurt to ensure that at least one character is detected for every input session. If the bird flies off before the tweet is finished, should it be sent out anyway? Should incoming data be collected, averaged and thresholds dynamically adjusted according to different species of birds? To answer these questions we need to test it out in the open, which isn&#8217;t exactly feasible for next week. Unless someone&#8217;s got a 20m long USB extension cable that is?</p>
 
 <p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_puppet.jpg" alt="birdwire finger puppet" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Inspiration: INSERT DISC]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/04/inspiration-insert-disc/"/>
+    <updated>2012-10-04T08:50:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/04/inspiration-insert-disc</id>
+    <content type="html"><![CDATA[<p>I&#8217;m having a bit of a lucky streak this week as I keep stumbling upon scarily relevant resources on the internet. And I might as well share them with you lot.</p>
+
+<p>This <em>rhizome</em> article, <a href="http://rhizome.org/editorial/2012/oct/2/insert-disc-digital-flaneurs-guide/">INSERT Disc: A digital flaneur&#8217;s guide</a> presents us with a novel way of embedding data into buildings, thus it relates beautifully to our exploration of ubiquitous computing in the <em>Everyware</em> (DAT302) module.</p>
+
+<p>The gist is that the <a href="http://www.movingimage.us">Museum of the Moving Image</a> in Long Island City, New York has installed a slot on one side of its walls where you can insert a blank DVD and a couple of minutes later, it will spit out a free archive of visual art history for you to immerse yourself in.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/moving_image_curtain.jpg" alt="Museum of the Moving Image curtain" /></p>
+
+<p><em>&copy; by <a href="http://www.flickr.com/photos/57637970@N05/">dwaineashley</a></em></p>
 ]]></content>
   </entry>
   
