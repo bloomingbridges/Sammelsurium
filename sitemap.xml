@@ -1,57 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://bloomingbridges.github.com/Sammelsurium/blog/2012/09/28/test/</loc>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/test/</loc>
         <lastmod>2012-10-08T00:56:02+01:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://bloomingbridges.github.com/Sammelsurium/blog/2012/09/28/introduction-to-everyware/
-        </loc>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/introduction-to-everyware/</loc>
         <lastmod>2012-10-08T00:14:49+01:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/01/inspiration-visualising-sound/
-        </loc>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/inspiration-visualising-sound/</loc>
         <lastmod>2012-10-15T00:40:49+01:00</lastmod>
     </url>
     <url>
-        <loc>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/02/morse-code/</loc>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/morse-code/</loc>
         <lastmod>2012-10-21T19:30:03+01:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/04/inspiration-insert-disc/
-        </loc>
-        <lastmod>2012-10-22T13:30:34+01:00</lastmod>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/inspiration-insert-disc/</loc>
+        <lastmod>2012-11-11T12:59:58+00:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/07/a-twitter-client-for-birds/
-        </loc>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/a-twitter-client-for-birds/</loc>
         <lastmod>2012-10-15T05:12:31+01:00</lastmod>
     </url>
     <url>
-        <loc>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/08/game-design-101/</loc>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/game-design-101/</loc>
         <lastmod>2012-10-10T14:12:11+01:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/09/anxiety-in-manhattan/
-        </loc>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/anxiety-in-manhattan/</loc>
         <lastmod>2012-10-09T02:19:45+01:00</lastmod>
     </url>
     <url>
-        <loc>http://bloomingbridges.github.com/Sammelsurium/blog/2012/10/14/birdwire/</loc>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/birdwire/</loc>
         <lastmod>2012-10-15T04:37:25+01:00</lastmod>
     </url>
     <url>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/hold-the-line/</loc>
+        <lastmod>2012-11-03T14:24:04+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://bloomingbridges.github.com/Sammelsurium/the-ultimate-shakespearean/</loc>
+        <lastmod>2012-11-11T14:30:26+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://bloomingbridges.github.com/Sammelsurium/blog/archives/</loc>
-        <lastmod>2012-10-22T13:30:34+01:00</lastmod>
+        <lastmod>2012-11-11T14:30:26+00:00</lastmod>
     </url>
     <url>
         <loc>http://bloomingbridges.github.com/Sammelsurium/</loc>
-        <lastmod>2012-10-22T13:30:34+01:00</lastmod>
+        <lastmod>2012-11-11T14:30:26+00:00</lastmod>
     </url>
 </urlset>
