@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-12-03T19:33:41+00:00</updated>
+  <updated>2012-12-04T01:00:11+00:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -12,6 +12,80 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Scaffolding]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/scaffolding/"/>
+    <updated>2012-11-26T23:05:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/scaffolding</id>
+    <content type="html"><![CDATA[<p>The following is an attempt come up with a rudimentary structure for my dissertation. At this point I am still not exactly sure what my argument is going to be as there is still a lot of research to be undertaken. Another growing concern is that analysing other designers&#8217; work with a scientific eye might not be considered academic enough. Judge for yourself and feel free to chip in for some direction.</p>
+
+<h2>The Expressiveness of the Pixel (working title) - Dissertation structure draft</h2>
+
+<h3>Introduction</h3>
+
+<ul>
+<li>I am going to talk about how to make games that reach out of the screen and stay in people&#8217;s heads. The games analysed in this dissertation are made by a single person, so the techniques uncovered can be used by (and apply to) big studios alike.</li>
+</ul>
+
+
+<h3>Chapter 1 - The moving image versus the Interactive experience</h3>
+
+<ul>
+<li>There&#8217;s a trend among games with a high-production value to borrow elements from cinema in order to make them more entertaining (e.g. Uncharted series), whereas indiependent developers have shown that you can make more &#8216;meaningful&#8217; games with limited resources and even lack of talent.</li>
+</ul>
+
+
+<h3>Chapter 2 - Less is More</h3>
+
+<ul>
+<li><p>I pick three exemplary titles, describe what they do and why the work so well based on scientific evidence from the field of psychology</p></li>
+<li><p>Thirty Flights of Loving by Brendon Chung</p>
+
+<ul>
+<li>&#8220;Thirty Flights of Loving is about 15 minutes long, as minimalist in its visuals as it is in its storytelling, and drops you straight into a linear, first-person narrative about love, betrayal and grand heists. It progresses at breakneck pace, bombarding you with imagery and incidental detail that might fly straight over your head the first time through. It tells a story almost entirely without words, written or spoken; this is the videogame equivalent of punchy, avant-garde short fiction.&#8221;</li>
+</ul>
+</li>
+<li><p>Don&#8217;t Look Back - Terry Cavanagh</p>
+
+<ul>
+<li>A platformer that relies on a three colour palette</li>
+</ul>
+</li>
+<li><p>Thomas Was Alone by Mike Bithell VS. Alphaland by Jonas Kyratzes</p>
+
+<ul>
+<li>All characters are just blocks, the ultimate reduction</li>
+</ul>
+</li>
+</ul>
+
+
+<h3>Chapter 3 - Just the right Amount of Ambiguity</h3>
+
+<ul>
+<li>Critical discussion where I compare the effectiveness of the above mentioned to equivalent commercial ones (i.e. Super Crate Box vs. Left 4 Dead) in terms of visual story-telling</li>
+<li>Debate whether an older generation is more likely to engage with &#8220;pixel art&#8221; due to nostalgia</li>
+</ul>
+
+
+<h3>Chapter 4 - The Attraction of the Unknown</h3>
+
+<ul>
+<li>Here I outline more ways of achieving similar sentiments (narrative, sound, co-op)</li>
+<li>IN//CUBUS - Discussion of the techniques used in my Final Year project</li>
+</ul>
+
+
+<h3>Chapter 5 - Conclusion: Do try this at home</h3>
+
+<ul>
+<li>But be aware that the methods outlined do not guarantee success</li>
+<li>We need more empathy in games</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The ultimate Shakespearean]]></title>
