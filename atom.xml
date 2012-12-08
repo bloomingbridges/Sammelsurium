@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-12-04T01:00:11+00:00</updated>
+  <updated>2012-12-08T21:22:30+00:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -88,6 +88,31 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Birds and XBees - The immediate future of Birdwire]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/birds-and-xbees-the-immediate-future-of-birdwire/"/>
+    <updated>2012-10-22T19:36:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/birds-and-xbees-the-immediate-future-of-birdwire</id>
+    <content type="html"><![CDATA[<p>I&#8217;m pleased to report that the <em>Birdwire</em> presentation went rather well. Lee caught enough interest to approach us after the session and ask us whether we&#8217;d like to put one out in the open. Of course we agreed to take the project further - if there was time - so we agreed to meet up the coming Monday so Lee could provide us with some more equipment needed to make the birdhouse self-sustainable and wireless.</p>
+
+<p>Somehow we didn&#8217;t quite manage to meet up so the future of Birdwire is a little cloudy at the moment. In the meantime I got the chance to play with XBees for our <em>Everyware</em> project, so the initial learning curve would be marginal. Due to the planned XBee incorporation the upload of the code to GitHub has also been put on hold for the time being, for which I apologise.</p>
+
+<p><strong>EDIT 08.12.2012</strong></p>
+
+<p>It&#8217;s fair to assume that Lee&#8217;s initial interest has vanished by now as he still hasn&#8217;t found the time to respond to my emails. In addition to our growing disappointment we noticed that the once so promising piece of woodwork that Anish contributed to the project is now being used as a mere doorstopper, but it doesn&#8217;t end here.</p>
+
+<p>As friends and the internet pointed out to us, there have been scarily similar developments in other corners of the world almost simultaneously: Latvian artist <em>Voldemars Dudums</em>&#8217;s <a href="http://designtaxi.com/news/354532/Real-Birds-Post-Tweets-On-Twitter">Hungry Birds</a> project for one and David Bowen&#8217;s <a href="http://dwbowen.com/fly_tweet.html">Fly Tweet</a> explore pretty much the same concept.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/fly_tweet.jpg" alt="fly tweet" /></p>
+
+<p>Going through the amounts of <em>facebook likes</em> comparable projects have amassed doesn&#8217;t faze me one bit, although it begs the question whether our idea of presenting ideas to the outside world is fundamentally flawed (We usually assume that all work is done once we created a project website and pushed it onto a web server). While working in groups and according to briefs never gives you that feeling of authorship that makes being an artist so rewarding I draw satisfaction from knowing that I&#8217;ve finally started to think like one.</p>
+
+<p>At the end of the day I can still pride myself for having incepted the animal twitter client with the least visible interface. No keyboards were harmed during the development of this project :></p>
+
+<p>Finally, I have found the time to prepare the birdwire codebase for the general public and immortalised it with its own <a href="https://github.com/bloomingbridges/Birdwire">GitHub repository</a> (for licencing reasons it doesn&#8217;t contain the font I&#8217;ve used in the Processing sketch, <em>Avenir Light</em>). Feel free to improve on it, maybe together we can convert birdwatchers into birdreaders and inspire many more bird-related projects to come.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The ultimate Shakespearean]]></title>
     <link href="http://bloomingbridges.github.com/Sammelsurium/the-ultimate-shakespearean/"/>
     <updated>2012-10-21T19:58:00+01:00</updated>
@@ -126,7 +151,7 @@
     <link href="http://bloomingbridges.github.com/Sammelsurium/birdwire/"/>
     <updated>2012-10-14T23:47:00+01:00</updated>
     <id>http://bloomingbridges.github.com/Sammelsurium/birdwire</id>
-    <content type="html"><![CDATA[<p>Thanks to Ben and Phil we now got a nice little website featuring an informative short clip up <a href="http://www.benashman.co.uk/p/birdwire">online</a>. You can follow the latest and breaking chitter via <a href="http://www.twitter.com/birdwireapp">@birdwireapp</a>.</p>
+    <content type="html"><![CDATA[<p>Thanks to Ben and Phil we now got a nice little website featuring an informative short clip up <a href="http://www.benashman.co.uk/p/birdwire">http://www.benashman.co.uk/p/birdwire</a>. You can follow the latest and breaking chitter via <a href="http://www.twitter.com/birdwireapp">@birdwireapp</a>.</p>
 
 <p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_site.png" alt="birdwire website" /></p>
 
