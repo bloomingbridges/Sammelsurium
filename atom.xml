@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-12-09T15:02:57+00:00</updated>
+  <updated>2012-12-09T15:04:43+00:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -102,7 +102,9 @@
 
 <p><img src="https://dl.dropbox.com/u/998319/DAT/mondrian.png" alt="Mondrian le Morse" /></p>
 
-<p>Importing models including textures was surprisingly pain-free. My weapon of choice was C#, although I noticed that <em>Unity</em>&#8217;s implementation of <em>JavaScript</em> seems to be more closely related to the <em>ActionScript</em> standard due to the use of static typing, which I like. Long time <em>Flash</em> devs even reported a similarity in their workflow which I can see to an extent. The way it works is you import your assets and attach so called &#8220;behaviours&#8221; to them, little scripts that each contain their own Init and Update loop (yes, all function names a capitalised..). You can save your script-laden asset as a &#8220;prefab&#8221; (think <em>MovieClip</em>), which you can then drag into the scene or instantiate through another script. What took some time to adjust to, however, was that everything is based on vectors (i.e. you can&#8217;t just move an object two units to the left, but have to provide a new vector for its position), but that&#8217;s only a small sacrifice compared to learning WebGL and doing everything without an instant representation. This is actually really nice, once you pressed the play button you can inspect all the elements in your scene and make adjustments. This makes debugging a breeze.</p>
+<p>Importing models including textures was surprisingly pain-free. My weapon of choice was C#, although I noticed that <em>Unity</em>&#8217;s implementation of <em>JavaScript</em> seems to be more closely related to the <em>ActionScript</em> standard due to the use of static typing, which I like. Long time <em>Flash</em> devs even reported a similarity in their workflow which I can see to an extent. The way it works is you import your assets and attach so called &#8220;behaviours&#8221; to them, little scripts that each contain their own Init and Update loop (yes, all function names a capitalised..). You can save your script-laden asset as a &#8220;prefab&#8221; (think <em>MovieClip</em>), which you can then drag into the scene or instantiate through another script.</p>
+
+<p>What took some time to adjust to, however, was that everything is based on vectors (i.e. you can&#8217;t just move an object two units to the left, but have to provide a new vector for its position), but that&#8217;s only a small sacrifice compared to learning WebGL and doing everything without an instant representation. This is actually really nice, once you pressed the play button you can inspect all the elements in your scene and make adjustments. This makes debugging a breeze.</p>
 
 <p>Now to try something more challenging. How about I try to use it with a wiimote? Nope, you need the Pro version for that. Kinect? Pro version required. Hmm.. Shadows? Pro version! Can I at least get the dark interface skin? Sorry, no. So I went and acquired a student licence from the official reseller for the upcoming and much appraised version 4, which luckily only turned out to be around £90 rather than the full price of £1500.</p>
 
