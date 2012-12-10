@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-12-09T15:04:43+00:00</updated>
+  <updated>2012-12-10T12:20:12+00:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Persistence of Memory]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/the-persistence-of-memory/"/>
+    <updated>2012-12-03T19:33:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/the-persistence-of-memory</id>
+    <content type="html"><![CDATA[<p>&#8220;We have the technology, so we might as well use it&#8221;, seems to have been the theme for our last <em>DAT301</em> micro project. Equipped with a kinect device, our group decided after long debate that we should try and recreate famous landscapes by 3D scanning household appliances and food. So here goes the first (and probably last) of a series: Salvador Dalí&#8217;s Surrealist painting &#8220;The Persistence of Memory&#8221;, or, &#8220;that one with the melting clocks&#8221;:</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/dali4.png" alt="The Persistence of Memory" /></p>
+
+<p>In my naivety I assumed that it would be fairly simple to mash the scanned meshes together and make some quick refinements. However, the level of detail on these was way higher than expected and the whole scene became  unmanageable rather early in the composition process. Texturing would therefore also have been a nightmare so I stopped after putting on materials.</p>
+
+<p>I tried cleaning up and to eventually reduce the amount of detail using <em>Meshlab</em>, but it didn&#8217;t seem much use either as it kept crashing whenever one deletec vertices from the scene. So in the end a couple of objects like the tree and the ground are actually created via traditional modelling.</p>
+
+<p>It&#8217;s been a fun experiment nevertheless and I believe we captured the essence of the landscape fairly well for a one-day project. Here&#8217;s the original one more time for your reference:</p>
+
+<p><img src="http://3.bp.blogspot.com/_qsSkaXuuUE8/TT6hVjc-L9I/AAAAAAAAAD4/1JnIshd9pCw/s1600/the_persistence_of_memory_-_1931_salvador_dali.jpg" alt="Original" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Scaffolding]]></title>
