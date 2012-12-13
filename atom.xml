@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-12-10T12:20:12+00:00</updated>
+  <updated>2012-12-13T13:58:16+00:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -18,9 +18,9 @@
     <link href="http://bloomingbridges.github.com/Sammelsurium/the-persistence-of-memory/"/>
     <updated>2012-12-03T19:33:00+00:00</updated>
     <id>http://bloomingbridges.github.com/Sammelsurium/the-persistence-of-memory</id>
-    <content type="html"><![CDATA[<p>&#8220;We have the technology, so we might as well use it&#8221;, seems to have been the theme for our last <em>DAT301</em> micro project. Equipped with a kinect device, our group decided after long debate that we should try and recreate famous landscapes by 3D scanning household appliances and food. So here goes the first (and probably last) of a series: Salvador Dalí&#8217;s Surrealist painting &#8220;The Persistence of Memory&#8221;, or, &#8220;that one with the melting clocks&#8221;:</p>
+    <content type="html"><![CDATA[<p>&#8220;We have the technology, so we might as well use it&#8221;, seems to have been the theme for our last <em>DAT301</em> micro project. Equipped with a kinect device, our group decided after long debate that we should try and recreate famous landscapes by 3D scanning household appliances and food. So here goes the first of a series: Salvador Dalí&#8217;s Surrealist painting &#8220;The Persistence of Memory&#8221;, or, &#8220;that one with the melting clocks&#8221;:</p>
 
-<p><img src="https://dl.dropbox.com/u/998319/DAT/dali4.png" alt="The Persistence of Memory" /></p>
+<p><img src="https://dl.dropbox.com/u/998319/DAT/dali_final.png" alt="The Persistence of Memory" /></p>
 
 <p>In my naivety I assumed that it would be fairly simple to mash the scanned meshes together and make some quick refinements. However, the level of detail on these was way higher than expected and the whole scene became  unmanageable rather early in the composition process. Texturing would therefore also have been a nightmare so I stopped after putting on materials.</p>
 
@@ -165,6 +165,40 @@
 <p><img src="https://dl.dropbox.com/u/998319/DAT/dotp_snap1.png" alt="DOTP Screenshot" /></p>
 
 <p><img src="https://dl.dropbox.com/u/998319/DAT/dotp_snap2.png" alt="DOTP Screenshot" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Re-visiting blender]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/re-visiting-blender/"/>
+    <updated>2012-11-03T13:24:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/re-visiting-blender</id>
+    <content type="html"><![CDATA[<p>There comes a point in a hacker slash designer&#8217;s career where one realises that they haven&#8217;t touched 3D in a while. For me that point was during placement at <em>Refunk</em>, when I was doing research on the emerging <em>WebGL</em> standard and tried creating my geometry in <em><a href="http://mrdoob.com">Ricardo Cabello</a></em>&#8217;s <em>three.js</em> in code, one vertex at a time.</p>
+
+<p>Perhaps the most formative experience I had in relation to three-dimensional computer graphics was listening to <em>Marcin Ignac</em>&#8217;s talk at <em>FITC Amsterdam</em>. His approach of making his own tools using Mac OS X technologies and his <a href="http://marcinignac.com/projects/cindermedusae/">Cindermedusae</a> project in particular refueled my passion for the field and even taught me some valuable and transferable things about programmatic animation in general.</p>
+
+<p>Now as it often is the case you find yourself very motivated to create something when leaving a conference like that, so for the remaining duration of my time away from uni I set myself the task of re-creating my <em>blooming bridges over withering waters visualisation</em> in mind-blowing 3D using WebGL.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/spaceworms.png" alt="WebGL version of bloomingbridges.co.uk prototype" /></p>
+
+<p>What I didn&#8217;t consider was - that as with learning any craft - it would take up a considerate amount of my time and spare time is a luxury item. A piece of software was needed that would allow me to speed up the process of &#8220;building&#8221; objects for my scene.</p>
+
+<p>The preferred choice of 3D package in the office was <em>Cinema4D</em>, but what I had in my mind did not require a professional high-end solution to execute, I was only after little visual feedback. Being in the Netherlands and having only read positive things about <em>blender</em>&#8217;s recent interface makeover and <em>Cycles</em> rendering engine I felt intrigued to give it another chance after I had dismissed it so passionately in my second year of uni.</p>
+
+<p>It wasn&#8217;t the most glorious idea I&#8217;ve ever had, but I couldn&#8217;t imagine finding the stamina to tame the temperemental behemoth that is <em>Maya</em> some more and learning an entirely new piece of software felt counter-productive. What&#8217;s there to say about the new <em>blender</em> that doesn&#8217;t make me loose myself in a fit of rage. Once again it is exemplary for my love-hate-relationship with <em>open-source</em> software:</p>
+
+<p>The new UI looks definitely more pleaasing to the eye and less broken, but fitted within an unreliable window layout and decorated with new secondary panels it&#8217;s not inherently more efficient to use. The old key mapping has been scrapped as well. Where you once triggered a contextual menu for adding primitives to your scene by tapping the space bar, you are now greeted with a useless little help window. Not enough that a great deal of <em>blender</em>&#8217;s functionality still isn&#8217;t exposed in the interface, the options available still don&#8217;t give you an indication as to what key they respond to.</p>
+
+<p>I can see the value of customisation in productivity software, but for the love of God is it too much to ask for to agree on a standard that just works? Also, whoever thought that integrating trackpad gestures into the software without any consideration for the consequences (it renders the 3D view literally unusable without an external mouse or graphics tablet) might want to contemplate a change of career.</p>
+
+<p>The new rendering engine on the other hand looks quite promising. <em>Cycles</em> is a node-based renderer with <em>global illumination</em> (objects emitting light etc.) at its core for more realistic-looking results. Once again, the sporadic documentation makes it more difficult to pick up if you don&#8217;t have a load of time on your hands to experiment.</p>
+
+<p>In conclusion I can say that re-learning <em>blender</em> was a daunting task, yet considering the free options out there presents just one of the many challenges that I feel I just had to master (I&#8217;m still hoping to be able to add <em>OpenFrameworks</em>, Max/MSP and OpenGL to my toolchain one day).</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/lowpolyhearts.jpg" alt="Low-poly hearts inspired by Helena Coard" />
+An artwork inspired by Plymouth-based Illustrator <a href="http://www.helena-coard.co.uk">Helena Coard</a></p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/lilyfinal.png" alt="bloomingbridges v6 logo" /></p>
 ]]></content>
   </entry>
   
