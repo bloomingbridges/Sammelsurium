@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-12-21T16:12:53+00:00</updated>
+  <updated>2012-12-21T20:55:51+00:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -219,7 +219,7 @@
 
 <p>One building in particular within the museum had been recommended to us for the main attraction, a room called the archive. To do the location justice we thought about having a separate room which would house a physical representation of the tunes created via the monomes. After some serious Health &amp; Safety considerations we thought it would be nice to have a transforming floor made up of many little cubes on pistons, covered by a stretchy material.</p>
 
-<p>One week was not enough to create a physical prototype with Arduinos, even going for the smallest matrix possible there was still too much room for error. Hence I suggested to make a virtual prototype using <em>Unity3D</em>, whilst Saul and Ben would be looking into creating a web version and synthesising music  using the <em>Web Audio API</em>. Getting them to talk to each other resulted in the usual mess of <em>NodeJS</em>, websockets and OSC.</p>
+<p>One week was not enough to create a physical prototype with Arduinos, even going for the smallest matrix possible there was still too much room for error. Hence I suggested to make a virtual prototype using <em>Unity3D</em>, whilst the others would be looking into creating a web version and synthesising music  using the <em>Web Audio API</em>. Getting them to talk to each other resulted in the usual mess of <em>NodeJS</em>, websockets and OSC.</p>
 
 <!-- ![Unity screenshot](https://dl.dropbox.com/u/998319/DAT/moving_floor_unity.png) -->
 
