@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-12-13T18:04:46+00:00</updated>
+  <updated>2012-12-21T13:15:47+00:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[INHABIT]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/inhabit/"/>
+    <updated>2012-12-14T21:15:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/inhabit</id>
+    <content type="html"><![CDATA[<p>One of the benefits of the close partnership between the course and <em>IBM</em> is their <a href="http://www.ibm.com/smarterplanet/uk">Smarter Planet</a> workshop they hold for us final year students once a year. It&#8217;s a chance to have your idea evaluated by an industry giant whose initiative is to make the world a better place. What&#8217;s not to like? Probably the fact that every idea you will come up with during the workshop is either already being done or will <a href="http://moorescloud.com">hit the market soon</a>.</p>
+
+<p>Luckily, we identified a series of issues within our own household that could be easily resolved through smartification. What we aim to improve is the relationship between friends or strangers living together by minimising the window for confrontation and making their everyday more efficient / convenient. Here are some example scenarios:</p>
+
+<ul>
+<li><p>Let&#8217;s say I&#8217;m returning home and I wasn&#8217;t aware that my housemate dead-locked the door when he left the house earlier so I stand there on the doorstep looking rather confused for a minute. <em>What if the house would automatically double-lock the door after the last person has left and unlock for me as I approach it?</em></p></li>
+<li><p>Let&#8217;s say I&#8217;m at university and I&#8217;m expecting a delivery. <em>If only I could tell whether any of my housemates are home that afternoon to receive the package, so I could send them a notice. I don&#8217;t have their phone numbers? No problem, the system would take care of that.</em></p></li>
+<li><p>One big cause for quarrel in shared accommodation is the thermostat, as throughout the day inhabitants will adjust it according to their preference. <em>How about the house would adjust the heating automatically, keeping the room temperature at a level that suits everyone?</em></p></li>
+<li><p>Assuming you have a housemate who sometimes falls asleep watching films on a volume that makes it hard for you to work or sleep next door. <em>That&#8217;s a no-brainer, just have the house turn off the television once it senses the housemate has fallen asleep! Likewise if I wanted to listen to music, ignoring the fact that other inhabitants might be asleep the system could inform me of my inconsiderate  behaviour.</em></p></li>
+<li><p>It was housemate B&#8217;s turn to take the bins out today, but apparently he&#8217;s either forgot or doesn&#8217;t care. <em>If the system would remind him or her in the morning and display this information somehwere for everybody to see he or she might feel more inclined to do it.</em></p></li>
+<li><p>If I was going to make tea or coffee and quickly wanted to ask around the house whether anybody would want some. <em>This could happen via a single button press on my phone.</em></p></li>
+<li><p>At the moment we all do our shopping individually, whereas we could save a considerate amount of money buying in bulk and ordering groceries online. <em>A central shopping list, which was aware of who put what item on would be able to work out the invidual bills in no time and would even be able to stock up on common used items like toilet paper before they run out.</em></p></li>
+</ul>
+
+
+<p>This can all be done using a couple of sensors (RFID, heat, movement), web technologies and geolocation or RFID keyrings. We call our system <strong>INHABIT</strong>. It will live on a central server in your house and is exposed via a myriad of interfaces: an app on the individual&#8217;s phone, a display mounted in the hallway or maybe the television set in the living room.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/monitor_screenshot.png" alt="INHABITor screenshot" /></p>
+
+<p>And it doesn&#8217;t end here. There is lots of scope for additions due to the modular nature of the system. One could, for instance, choose to share one&#8217;s public calendar with <strong>INHABIT</strong>, so it can make better predictions on what time you&#8217;ll be home.</p>
+
+<p>Naturally there will be people, who are concerned about their privacy and would rather not share their exact whereabouts with acquaintances her or she happens to live with. This is why we obfuscate sensitive data and provide  individual privacy control settings.</p>
+
+<p>For our prototype we chose to implement presence using <em>RFID</em> keychains, the individual&#8217;s newsfeeds (using the <em>MQTT</em> protocol to send notifications to and from a <em>Node</em> server, communicating with the mobile web app and the monitor website) and a simple intelligence that would adjust the heating depending on who is home, inform you of sleeping housemates when you enter through the door and allow you to send tea calls around.</p>
+
+<iframe width="700" height="394" src="http://www.youtube.com/embed/alJG27F6YG0?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>For a one-week project it&#8217;s been quite ambitious and with so many possibilities at hand it can be difficult to tell where one should draw the line. Turns out we did just the right amount as <strong>INHABIT</strong> was voted the best project and won us each a bag of <em>IBM</em>-branded stuff.</p>
+
+<p>So far it&#8217;s been the most seamless group work we&#8217;ve done for this module as it was really simple to divide up tasks. I must also say that I thoroughly enjoyed working on something genuinely useful for a change.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Persistence of Memory]]></title>
@@ -54,6 +93,38 @@
 <p>As you can imagine it doesn&#8217;t work very well on see-through or reflective materials in general. The software we used to interface with the device to see if we can get it to produce us some motion capture data seemed quite temperamental, but that&#8217;s porbably down to the hacking nature of the exercise. I know too well that this sort of work requires a lot of stamina as you do need to re-do things over and over again.</p>
 
 <p><img src="https://dl.dropbox.com/u/998319/DAT/kinectme.png" alt="Kinect me" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Delivery Day Horrors]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/delivery-day-horrors/"/>
+    <updated>2012-12-03T12:06:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/delivery-day-horrors</id>
+    <content type="html"><![CDATA[<p>When pondering what is wrong with this world and how we can improve on it using technology, there is one offender that keeps crossing my mind: parcel delivery services.</p>
+
+<p>Only yesterday I had the displeasure of waiting all day for a parcel to be re-delivered as I didn&#8217;t receive any notice that they&#8217;d knock at my door one day early. No indication as to when they&#8217;ll stop by the next day, the tracking site on the internet only read &#8220;sometime between 9am and 5pm&#8221; and indeed, I opened the door to receive my delivery at 4.58pm. It doesn&#8217;t have to be this way.</p>
+
+<p>So what if we installed parcel-sized containers on our doorsteps, which would unlock for delivery men when we&#8217;re out and about? They wouldn&#8217;t have wasted time and resources to be disappointed at my doorstep and I wouldn&#8217;t have to be home the next day, frantically refreshing the tracking website: win win.</p>
+
+<p>If you just read this and thought &#8220;Well son, your problem is already a thing of the past! I&#8217;ve been using <a href="https://www.bufferbox.com">Service X</a> for many years&#8221;, then consider yourself lucky to be living somewhere that is actually worth living in and not the miserable south west of England.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/bufferbox.jpg" alt="Bufferbox" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[UbiComp Seminar afterthoughts]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/ubicomp-seminar-afterthoughts/"/>
+    <updated>2012-11-28T22:44:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/ubicomp-seminar-afterthoughts</id>
+    <content type="html"><![CDATA[<p><img src="https://dl.dropbox.com/u/998319/DAT/future.jpg" alt="Microsoft's vision of the future" /></p>
+
+<p>In our second <em>Everyware</em> seminar this year we discussed the merits of <em>ubiquitous computing</em> (short: <em>ubicomp</em>), a paradigm by which our interactions with computers become more and more integrated into the human experience as they are no longer restricted to our desk. Everyday objects such as chairs and wardrobes will soon have computing power embedded, they will make choices for us so we don&#8217;t have to and of course they will all be able to communicate with each other.</p>
+
+<p>But is it really a good idea to give all our agency away to a machine? There are still some things left that can be done way more efficiently by humans, this includes all creative processes. Take a camera roll for example. A computer might be able to judge pictures based on their blurriness or even know about your taste, but in the end only you can decide which pictures to keep and which ones to throw out. No room for automation there.</p>
+
+<p>Somehow we managed to steer the conversation towards user interface design and how good a job <a href="http://www.realmacsoftware.com/clear/">Clear</a> was doing at getting rid buttons and icons in their interface (if only I had finished my list making app in time..). I agree that removing clutter in software will help the user focus on a particular task, but removing the interface from everyday activities such as getting rid of light switches is, at least in my opinion, too huge a sacrifice in terms of control. Then again I&#8217;m usually not very open to change and I will continue to insist that voice control, even if it worked perfectly, would always be conceptually flawed.</p>
 ]]></content>
   </entry>
   
@@ -132,6 +203,41 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Unsticking the Middle]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/unsticking-the-middle/"/>
+    <updated>2012-11-23T20:54:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/unsticking-the-middle</id>
+    <content type="html"><![CDATA[<p>For our second collaboration with the school of architecture we were asked to create something novel that would attract visitors to the ex-mining town St. Blazey, Cornwall. The people of St. Blazey feel a little overshadowed by the surrounding &#8220;metropoles&#8221; St. Austell and Fowey, something the council wants to change by building a museum on the former R&amp;D area of the clay mining grounds, the design of which is - coincidentally - carried out by the architecture students of <em>Plymouth University</em>.</p>
+
+<p>Early on in the project we decided to tackle the social issues that St. Blazey is dealing with, the feeling of disconnectedness and the generation gap. Saul and myself felt strongly that we should make an installation, which would blend into the environment and which would only reveal its interaction by walking past / <a href="http://www.artcom.de/en/projects/project/detail/duality/">over it</a>.</p>
+
+<p>A great way of doing so - we thought - was have people accidentally create harmonic music together by giving them an instrument that doesn&#8217;t require any mastery. Heavily inspired by Justin Windle&#8217;s <a href="http://soulwire.co.uk/experiments/particle-node-sequencer/">Particle Node Sequencer</a> I imagined glowing poles of light in a medium-sized dark room that play back notes whenever people gather around them holding hands, to reference the strong sense of purpose the miners had felt back in the day risking their lives down in the shafts of the St. Blazey clay mines.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/particle_node_sequencer.png" alt="Justin Windle's Particle Node Sequencer" /></p>
+
+<p>A less extravagant, yet more portable solution was to buid a monome or <a href="http://blog.iso50.com/23116/start-making-some-music-right-now/">tone matrix</a> out of illuminated tiles on the floor. To hit two birds with one stone we thought we could have multiple installations, one in each of the neighbouring towns that would allow for remote collaboration, each location being identifiable through their unique colour.</p>
+
+<p>One building in particular within the museum had been recommended to us for the main attraction, a room called the archive. To do the location justice we thought about having a separate room which would house a physical representation of the tunes created via the monomes. After some serious Health &amp; Safety considerations we thought it would be nice to have a transforming floor made up of many little cubes on pistons, covered by a stretchy material.</p>
+
+<p>One week was not enough to create a physical prototype with Arduinos, even going for the smallest matrix possible there was still too much room for error. Hence I suggested to make a virtual prototype using <em>Unity3D</em>, whilst Saul and Ben would be looking into creating a web version and synthesising music  using the <em>Web Audio API</em>. Getting them to talk to each other resulted in the usual mess of <em>NodeJS</em>, websockets and OSC.</p>
+
+<!-- ![Unity screenshot](https://dl.dropbox.com/u/998319/DAT/moving_floor_unity.png) -->
+
+
+
+
+<iframe width="700" height="394" src="http://www.youtube.com/embed/2gUvwj4tp0A?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p><em>demo video, courtesy of Benjamin Ashman</em>; annoying glare, courtesy of whiteboard paint™</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/monome_presentation.jpeg" alt="presentation" /></p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/moving_floor.jpeg" alt="Moving floor model" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[A taste of Unity]]></title>
     <link href="http://bloomingbridges.github.com/Sammelsurium/a-taste-of-unity/"/>
     <updated>2012-11-13T22:50:00+00:00</updated>
@@ -153,6 +259,25 @@
 <p>Now to try something more challenging. How about I try to use it with a wiimote? Nope, you need the Pro version for that. Kinect? Pro version required. Hmm.. Shadows? Pro version! Can I at least get the dark interface skin? Sorry, no. So I went and acquired a student licence from the official reseller for the upcoming and much appraised version 4, which luckily only turned out to be around £90 rather than the full price of £1500.</p>
 
 <p>In the end I regained my faith in the software (albeit the fact that it wouldn&#8217;t let me open the new version due to popular demand) and you may expect a lot more 3D work from me in the near future (or at least until my licence runs out).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Data Ecologies Symposium]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/data-ecologies-symposium/"/>
+    <updated>2012-11-10T13:47:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/data-ecologies-symposium</id>
+    <content type="html"><![CDATA[<p><img src="https://dl.dropbox.com/u/998319/DAT/dataecologies.jpg" alt="Data Ecologies poster" /></p>
+
+<p>Today I attended my first ever symposium, organised by the <em>Institute for Digital Art &amp; Technology</em> and conveniently taking place on campus. To be fair I only went as our <em>DAT302</em> group was asked to present our <em>SixthSense</em> technology that we produced for the <em>Devonport High School for Boys</em>, the workload simply wouldn&#8217;t have allowed for a weekend off otherwise.</p>
+
+<p>My favourite pair of speakers were Alice Sharp and her assistant from <a href="http://invisibledust.com">Invisible Dust</a>, who are very much concerned with making invisible things visible and accentuating environmental issues. I find their noble approach to collaboration quite fascinating, definitely a useful contact to have I imagine.</p>
+
+<p>One of their <a href="http://invisibledust.com/project/jeremy-deller-tracking-bats-in-2012/">projects</a> which they talked in great length about dealt with the social recording of bats using an iOS app in conjunction with a special microphone. It made <a href="http://benashman.co.uk/p/birdwire/">Birdwire</a> look rather static and boring in comparison.</p>
+
+<p>The most inspiring talk given was given by the <a href="http://www.owlproject.com">Owl Project</a>, a group of artists who from making musical instruments out of logs for personal use to having a gigantic watermill / musical instrument  built and placed on the Tyne river. I urge you to check out <a href="http://www.flowmill.org">~Flow</a>.</p>
+
+<p>For a short while it even made me consider creating a programmable music box of my own. Then reality kicked in and we found ourselves in Babbage, setting up our thing. I&#8217;ve met Ziad Ewais who had some interesting things to say about <em>Unity</em> development. If you happened to be around you would have seen the usual DAT projects. Saying that I have no measure of success other than perhaps the amount of people who followed the symposium online or the quality of the food.</p>
 ]]></content>
   </entry>
   
@@ -183,7 +308,7 @@
 
 <p>It worked out quite well in the end. At least for a two week project. Simon didn&#8217;t seem very impressed, but the crowd loved it.</p>
 
-<p>In the version we presented it was already possible to create new channels on the fly by calling a function from the browser&#8217;s console. That as well as the remote design could do with some love in my opinion. Ideally you also wouldn&#8217;t have to restart the server every time you wanted to have a session, rather you&#8217;d create a theatre of your own using a unique id so you could invite people on the internet to join. Alas, I am fed up with <em>WebSockets</em> and I&#8217;ll gladly hand such tasks to all you enthusiastic tinkerers out there who want to learn and or simply point out what I&#8217;ve been doing wrong (I know for instance that the way I bundled socket.io with the app was completely off). You can find the repository on my <a href="https://github.com/bloomingbridges/YouMote">GitHub</a>.</p>
+<p>In the version we presented it was already possible to create new channels on the fly by calling a function from the browser&#8217;s console. That as well as the remote design could do with some love in my opinion. Ideally you also wouldn&#8217;t have to restart the server every time you wanted to have a session, rather you&#8217;d create a theatre of your own using a unique id so you could invite people on the internet to join. Alas, I am fed up with <em>WebSockets</em> and I&#8217;ll gladly hand such tasks to all you enthusiastic tinkerers out there who want to learn and or simply point out what I&#8217;ve been doing wrong (I know for instance that the way I bundled socket.io with the app was completely off). You can find the repository on my <a href="https://github.com/bloomingbridges/YouMote">GitHub</a>. A short video demonstration can be found on my <a href="http://www.youtube.com/watch?v=nNVCAYqJ_BE">YouTube</a> channel.</p>
 
 <p>To this day I am still not entirely sure whether the struggle with <em>Node</em> was actually worth it. Expecially the package management causes a LOT of confusion in combination with hosting services and writing server-side <em>JavaScript</em> - albeit its familiarity - still seems blatantly pointless.</p>
 
@@ -339,6 +464,29 @@ Sunday - orange
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Classroom gnomes]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/classroom-gnomes/"/>
+    <updated>2012-10-15T21:51:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/classroom-gnomes</id>
+    <content type="html"><![CDATA[<p>So how does one go about teaching kids ecological responsibility? First of all we need ways of measuring their wastefulness and I couldn&#8217;t think of an application more appropriate for the <em>XBee</em> shields that I so eagerly want to get my hands on.</p>
+
+<p>In combination with your usual suspects of sensors (temperature, light etc.) we could then send all our collected data wirelessly to a central location, the pc that will sit inside the new learning space at the other end of the campus, essentially creating an <a href="http://www.i-dat.org/eco-os-workshop-ecoid-prototype/">Ecoid</a> network of our own.</p>
+
+<p>To make the whole process a little easier to comprehend I believe we shouldn&#8217;t just hide the sensors away in the building, but should create some interesting designs for their housing instead. Think garden gnomes for a second. They all visibly wear their tool of choice, which associates them with a certain task. You never see them moving, but if they&#8217;re doing their job you know they must have communicated with each other when you weren&#8217;t looking.</p>
+
+<p>This thinking inspired the designs for the wireless sensors to be put in their class- and common rooms. The heat sensor for instance would be hugging the radiator and and the wind sensor would be sat on a windowsill somewhere.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/devonport_gnomes.png" alt="Gnome designs" /></p>
+
+<p>The data collected will be analysed and visualised in two different ways. A literal visualisation in the form of bar charts and graphs will mainly be of interest to the world outside of the campus, mainly to show off how energy conscious the <em>Devonport High School for Boys</em> has become.</p>
+
+<p>The visualisation that goes inside the learning space is of a more experimental nature. It will invite pupils to play with it and react to their actions in real time. Further will there be a console cut from Acrylic, which takes bricks as inputs to turn certain aspects of the visualisation on or off.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/element_stones.jpg" alt="Four Elements" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Hold the Line]]></title>
     <link href="http://bloomingbridges.github.com/Sammelsurium/hold-the-line/"/>
     <updated>2012-10-15T01:01:00+01:00</updated>
@@ -369,6 +517,31 @@ Sunday - orange
 <p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_sketch.png" alt="birdwire beta screenshot" /></p>
 
 <p>There are still a couple of edge cases and minor bugs that need my attention, but it will do for the presentation tomorrow. Once I&#8217;m happy I shall release the code to the general public. So if you&#8217;re keen on trying it out for yourself, you can either come along tomorrow, or simply keep an eye on my <a href="http://www.github.com/bloomingbridges">GitHub</a> ;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Fake Sound of Progress]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/the-fake-sound-of-progress/"/>
+    <updated>2012-10-12T19:47:00+01:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/the-fake-sound-of-progress</id>
+    <content type="html"><![CDATA[<p>Over the weekend we&#8217;ve had our first major breakdown: In talking to the high-schoolers (our potential audience) last Friday it crystallised that they weren&#8217;t even aware of the wall&#8217;s existence nor did they show much interest in learning about its rich history.</p>
+
+<p>We were also worried that we didn&#8217;t have enough data to play with, so Ben wrote a web interface that allowed locals to <a href="http://datwall.herokuapp.com/">submit their memories of the wall to a database</a> whilst I, mostly due to a lack of direction, started writing a framework for displaying different types of media from said database in <em>Processing</em>. This way we could have miniature bricks cut from the Devonport wall, each housing an RFID tag, which could then be reassembled in a variety of ways while at the same time displaying their content.</p>
+
+<p>We thought we were on the right track with this one. Once our database was in place, teachers could associate bricks with their own teaching material and use the visualisation as a presentation tool.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/wonderwall.png" alt="WonderWall preloader" /></p>
+
+<p>At the same time, our architect Miguel kept coming up with new designs for our space, which kept pushing the project into all kinds of wrong directions on a daily basis. One element that persisted throughout however, was the use of miniature bricks as an interface to a projection / installation.</p>
+
+<p>At the time there was a lot of confusion over the brief as well. It read &#8220;design for an outdoor learning space&#8221;, but all we got were sketches for an indoor auditorium and hallways. Future-proof you say? Does it even need to relate to the wall at all? Why does the assignment for group 3a and b look so drastically different, but offer only limited additional information?</p>
+
+<p>So we thought and fought about it some more and we eventually came up with an idea that would work in any type of environment and which would not be concerned with the Devonport wall so much: We&#8217;d teach kids about the environment and how the wall was just a metaphor for recycling.</p>
+
+<p>And since we&#8217;re at it, why not throw a competitive element into the mix? It literally blew my mind when I learned that schools in England are divided up in houses like in the <em>Harry Potter</em> universe. What all this means will require another blog entry to explain. Flo out.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/houses.jpg" alt="HP houses" /></p>
 ]]></content>
   </entry>
   
@@ -426,146 +599,6 @@ We employed a variety of techniques to come up with ideas for a small game, look
 <p>Later on I came across this gem by accident, hidden deep within the depths of the University library: <em>How to make Things with Videogames</em> by Ian Bogost. So far I can only recommend it.</p>
 
 <p><img src="http://www.creativeapplications.net/wp-content/uploads/2012/01/bogost-videogames-cover-640x480.jpg" alt="book cover" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A twitter client for birds]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/a-twitter-client-for-birds/"/>
-    <updated>2012-10-07T03:22:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/a-twitter-client-for-birds</id>
-    <content type="html"><![CDATA[<p><img src="https://dl.dropbox.com/u/998319/DAT/birdhouse_infrographic.jpg" alt="birdhouse design" /></p>
-
-<p>So how does one go about creating an interface for a twitchy little animal? We figured all it needs is a familiar environment (a birdhouse), a handful of seeds and a tiny microphone. Thanks to Anish&#8217;s connections we got the housing covered, the sound sensor we borrowed from the <em>i-DAT</em> office. The birdhouse turned out a little bigger than expected. Field tests will show whether we have to find another &#8220;target audience&#8221;;</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_development.jpg" alt="birdwire development" /></p>
-
-<p>A first dirty implementation of a Morse code interpreter in Processing revealed a fundamental problem with the approach. A quick recap. In Morse, the characters are distinguished by a unique sequence of dots (DIT) and dashes (DAHs, three times the length of a DIT). To signal the end of a character you pause for the length of three DITs or one DAH, significantly longer for a word break. This all requires timing, which the birds don&#8217;t necessarily care for, so the pause length needs to be variable.</p>
-
-<p>In version #1 every sound above a certain threshold would generate a DIT. I would start listening for periods of pauses until I picked up a new peck. After a certain amount of inactivity I will insert a space character. As some characters end on DITs and others on DITs plus two pauses I will never be able to tell what the last character of the word was, this way the birdies only ever get to choose from half of the letters available.</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_screenshot.png" alt="birdwire v.0.1 screenshot" /></p>
-
-<p>I propose another algorithm that requires two different inputs, they may even come from the same sensor just using slightly different thresholds. It also wouldn&#8217;t hurt to ensure that at least one character is detected for every input session. If the bird flies off before the tweet is finished, should it be sent out anyway? Should incoming data be collected, averaged and thresholds dynamically adjusted according to different species of birds? To answer these questions we need to test it out in the open, which isn&#8217;t exactly feasible for next week. Unless someone&#8217;s got a 20m long USB extension cable that is?</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_puppet.jpg" alt="birdwire finger puppet" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thoughts on NFC]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/thoughts-on-nfc/"/>
-    <updated>2012-10-04T08:50:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/thoughts-on-nfc</id>
-    <content type="html"><![CDATA[<p>Last night I witnessed the power of Near Field Communication, short <em>NFC</em>, with my own eyes when James transferred a web address from his <em>Google Nexus</em> phone to his <em>Nexus 7</em> tablet by rubbing the devices&#8217; backs against each other. While it may not yet be the most efficient and or natural way to pay for your latte in a coffee shop, I see opportunities for supermarkets, restaurants and hard to navigate spaces like malls or Portland Square to provide people with an easy way of accessing information like maps or daily specials.</p>
-
-<p>The advantages over quick response codes are immediately evident: No more black and white stickers that we&#8217;ve all grown so very tired of and dynamic information on the spot that requires no connection to the internet (Think advent calendars!). The amount of data that can be transferred is limited of course, but technical limitations shouldn&#8217;t limit your imagination. Just imagine walking into a space that greets you with a physical map. One swipe with your phone and you have said map on your screen to take with you. Beautiful.</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/nfc.jpg" alt="NFC teaser from gizmodo" /></p>
-
-<p><strong>EDIT 09.10.2012</strong></p>
-
-<p>As <em>Lee Nutbean</em> pointed out in today&#8217;s session, <em>NFC</em> tags can be re-written via freely available phone software if unprotected. A person concerned with their precious privacy may note that this technology would enable a hacker to retrieve and change the information stored on their passport. The activist would see an opportunity to disrupt marketing channels and create awareness for their campaign in a way that could best be described as &#8216;virtual vandalism&#8217;.</p>
-
-<p>Me being on neither side I just want to play with the technology, alas it might take years for <em>NFC</em> to become commonplace if at all (<em>Apple</em> for one doesn&#8217;t seem to believe in it).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Inspiration: INSERT DISC]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/inspiration-insert-disc/"/>
-    <updated>2012-10-04T08:50:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/inspiration-insert-disc</id>
-    <content type="html"><![CDATA[<p>Looks like I&#8217;m having a bit of a lucky streak this week as I keep stumbling upon scarily relevant resources on the internet. Of course I will be sharing them with you lot.</p>
-
-<p>Next up: This <em>rhizome</em> article, <a href="http://rhizome.org/editorial/2012/oct/2/insert-disc-digital-flaneurs-guide/">INSERT Disc: A digital flaneur&#8217;s guide</a>, which presents us with a novel way of embedding data into buildings, thus relating beautifully to our exploration of ubiquitous computing in the <em>Everyware</em> (DAT302) module.</p>
-
-<p>The gist is that the <a href="http://www.movingimage.us">Museum of the Moving Image</a> in Long Island City has installed a slot-loading optical drive on one side of its walls where you can insert a blank DVD. A couple of minutes later, it will spit out a free archive - in the form of a virtual disk image - of visual art history for you to immerse yourself in.</p>
-
-<p>I find this project fascinating for two reasons: It stays true to the original medium those works were originally distributed in and I really like the thought that the building&#8217;s walls supposedly have amassed this collection of memories of art exhibited in the museum over its lifetime.</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/moving_image_curtain.jpg" alt="Museum of the Moving Image curtain" /></p>
-
-<p><em>&copy; <a href="http://www.flickr.com/photos/57637970@N05/">dwaineashley</a></em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[-- --- •-• ••• •   -•-• --- -•• •]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/morse-code/"/>
-    <updated>2012-10-02T23:03:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/morse-code</id>
-    <content type="html"><![CDATA[<p>To kick off <em>Real-time</em> we were asked to work on a series of mini projects that involve sensory input and the good old Arduino. When thinking about what invisible data source I&#8217;d like to give a &#8216;voice&#8217;, the first thing that comes to my mind is <em>silence</em>. I like the idea of rewarding people with visuals under the rare moments of complete silence.</p>
-
-<p>After <em>Lee Nutbean</em> introduced us to the <a href="http://www.i-dat.org/eco-os-workshop-ecoid-prototype/">ecoid</a>, a self-sustaining sensor kit that transmits its collected data wirelessly, I fondled with the idea of installing a couple of speakers in the shape of birdhouses around campus.</p>
-
-<p>The speakers would continously play back lists of messages encoded in morse, a series of sounds that only the ones in the know would be able to make sense of. It shouldn&#8217;t be too hard to write an app that would listen to the beeps and decode the messages, or even feed into the system by lighting up the flash on the phone camera in time. Thus creating some kind of local area secret pigeonhole system.</p>
-
-<p>I&#8217;ve been meaning to learn <a href="http://en.wikipedia.org/wiki/Morse_code">Morse Code</a> ever since I fell for Google&#8217;s brilliant <a href="http://www.huffingtonpost.com/2012/04/01/gmail-tap-google-april-fools-day_n_1394635.html">April Fools&#8217; joke</a> of 2012. In my mind there was no doubt that the Morse Code keyboard was a brilliant idea.</p>
-
-<p>Ultimately we came up with another idea in our group that utilises Morse in a different way: We are going to build a twitter client. For birds. And it&#8217;s going to be called <em>birdwire</em>.</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_logo.png" alt="birdwire logo" /></p>
-
-<p><strong>EDIT 21.10.2012</strong></p>
-
-<p>Today I learned that <em>morse</em> is French for <em>walrus</em>, a piece of information which mandated me to create the following work of nonsense:</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/code_de_morse.jpg" alt="walrus code" /></p>
-
-<p>Actually this tied in beautifully with my recent attempts to re-learn and master <em>blender</em>, the outcomes of which I shall document in another blog post in the near future.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Inspiration: Visualising Sound]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/inspiration-visualising-sound/"/>
-    <updated>2012-10-01T23:04:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/inspiration-visualising-sound</id>
-    <content type="html"><![CDATA[<p>Feeding into the discussion on the plethora of ways in which we can combine visuals and sound, which happens to tie in nicely with our reading material for the <em>Real-time</em> module (<a href="http://localhost:4000/Sammelsurium/blog/categories/dat301/">DAT301</a>), I would like to share with you two delightful examples of such practice:</p>
-
-<p>First in line is a literal interpretation of the song &#8216;Dynamics of the Subway&#8217; by the Japanese band <a href="http://www.haisuinonasa.com/">haisuinonasa</a> through <a href="http://www.creativeapplications.net/sound/keita-onishi-forest-and-trees-dynamics-of-the-subway/">Keita Onishi</a>. Starting out as a Fischinger-esque translation of beat and notes (kicks, piano chords) into simple geometric shapes, the graphical elements soon transform into an underground car racing through the most colourful world of black and white that I have ever witnessed.</p>
-
-<iframe src="http://player.vimeo.com/video/49367868?title=0&amp;byline=0&amp;portrait=1" width="100%" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-
-
-<p>The second piece I discovered when querying the university library database for the works of my favourite visual artist <a href="http://www.ryojiikeda.com/">Ryoji Ikeda</a>. His research project <a href="http://www.ryojiikeda.com/project/other/">cyclo. id vol.1</a> represents the other end of the spectrum, where stereo sound is interpreted in real-time through an oscilloscope and remapped onto different coordinates. Said tome is just an immense collection of such computationally-generated representations and thus not really interesting per se, yet the accompanying disc holds some rather fascinating animated examples.</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/cyclo.gif" alt="cyclo." /></p>
-
-<p>I&#8217;ve been obsessed with Japanese design and visual culture as of late (if you couldn&#8217;t already tell), so the domination of Japanese artists potrayed in this post may not be entirely coincidental. In an attempt to learn at least the basic 48 kana I started playing <a href="http://www.hiraganapixelparty.com/HiraganaPixelParty.html">Hiragana Pixel Party</a>, a rhythm-based language acquisition game for iOS and Windows Phone. And take note, the university is offering a four-week beginner-level course in Japanese over the summer. Why am I telling you this? I could do with a learning partner in order to make it more fun, that&#8217;s all ^^</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Introduction to Everyware]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/introduction-to-everyware/"/>
-    <updated>2012-09-28T18:54:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/introduction-to-everyware</id>
-    <content type="html"><![CDATA[<p>Quick feelings update: Out of the three module introduction sessions, Gianni&#8217;s <strong>Everyware</strong> pitch had been the first one to address my educational desires. It pays out to go with your gut every now and again it seems.</p>
-
-<p>Whilst out-in-the-open work with strangers has thus far only enabled me to produce less than mediocre work (I&#8217;m watching you Nutbean!), I am looking forward to the interfacultary collaboration nevertheless. After all, the subject of architecture is very dear to my heart and having a module that essentially requires you to pick up cyberpunk novels for research is more than welcome :></p>
-
-<p><strong>EDIT 1.10.2012</strong></p>
-
-<p>One author that I think Gianni has mentioned during the intro session - Howard Rheingold - just released a book with TED titled <a href="http://boingboing.net/2012/09/30/howard-rheingolds-mind-a.html">Mind Amplifier</a> and it&#8217;s only three quid for the ebook version.</p>
-
-<p><img src="http://craphound.com/images/mind-amplifier-cover.jpg" alt="Mind Amplifiers cover" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hallo Wereld]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/test/"/>
-    <updated>2012-09-28T18:28:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/test</id>
-    <content type="html"><![CDATA[<pre><code>&gt; So here we go again
-&gt; Final stage of "Digital Art &amp; Technology"
-&gt; "Interaction Design" pathway
-&gt; I am Florian Brueckner 
-&gt; Welcome to my sammelsurium
-&gt; 
-</code></pre>
 ]]></content>
   </entry>
   
