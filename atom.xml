@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-12-21T13:15:47+00:00</updated>
+  <updated>2012-12-21T16:12:53+00:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -107,7 +107,7 @@
 
 <p>So what if we installed parcel-sized containers on our doorsteps, which would unlock for delivery men when we&#8217;re out and about? They wouldn&#8217;t have wasted time and resources to be disappointed at my doorstep and I wouldn&#8217;t have to be home the next day, frantically refreshing the tracking website: win win.</p>
 
-<p>If you just read this and thought &#8220;Well son, your problem is already a thing of the past! I&#8217;ve been using <a href="https://www.bufferbox.com">Service X</a> for many years&#8221;, then consider yourself lucky to be living somewhere that is actually worth living in and not the miserable south west of England.</p>
+<p>If you just read this and thought &#8220;Well son, your problem is already a thing of the past! I&#8217;ve been using <a href="https://www.bufferbox.com">Service X</a> for many years&#8221;, then consider yourself lucky to be living somewhere that is actually worth living in and not the miserable South West of England.</p>
 
 <p><img src="https://dl.dropbox.com/u/998319/DAT/bufferbox.jpg" alt="Bufferbox" /></p>
 ]]></content>
@@ -238,6 +238,49 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Post-workshop répondaire]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/post-workshop-repondaire/"/>
+    <updated>2012-11-23T12:41:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/post-workshop-repondaire</id>
+    <content type="html"><![CDATA[<h3>Project 1b workshop: 5/10/12 – 19/10/12</h3>
+
+<p><strong>a) Explain three things which you have learnt from this workshop.</strong></p>
+
+<ul>
+<li><p>The way architecture is taught is much more free-form (open workspaces, constant tutoring) and even in a field so specific you still have the choice to do whatever you want.</p></li>
+<li><p>Architects care a lot about materials and finding the right texture for things whereas we DAT students seem to be more concerned with the invisible.</p></li>
+<li><p>Their conceptual nature gets in the way of our nature of building things. You cannot force collaboration onto people, it has to happen naturally for mutual reasons.</p></li>
+</ul>
+
+
+<p><strong>b) What are three things which could have been better/improved upon?</strong></p>
+
+<ul>
+<li><p>The briefs could have been less wordy and more concise, especially in places where they differed for groups and even team members.</p></li>
+<li><p>The workshops could have been better integrated into each other&#8217;s curriculum. For the most time it felt as if our work was just sugar-coating and not very fundamental as the architects already had a head start on designing the buildings. This mismatch of expectations plus the fact that we got assessed on different presentations lead to a massive loss of interest in either side&#8217;s work.</p></li>
+<li><p>Some people might benefit from an introduction into basic computer skills.</p></li>
+</ul>
+
+
+<p><strong>c) Did you find the project challenging? Explain if so and why.</strong></p>
+
+<p>Yes, I did find the projects challenging, however made unnecessarily challenging by the vagueness of the brief given. Too much time was wasted re-evaluating our ideas against the marking criteria and the relevance to the module content.</p>
+
+<p><strong>d) After the workshop experience, how would you define a site?</strong></p>
+
+<p>A site is more than just a location on a map. It is a self-contained space, always in transition and a playground for artists. Any site benefits from meaning that it receives through contacts with humans.</p>
+
+<p><strong>e) What is your now current understanding of ubiquitous computing?</strong></p>
+
+<p>See my post <a href="http://bloomingbridges.github.com/Sammelsurium/ubicomp-seminar-afterthoughts/">UbiComp Seminar afterthoughts</a></p>
+
+<p><strong>f) How did you engage your course skills to the task? (field of DAT or Architecture)</strong></p>
+
+<p>I picked up a lot of knowledge on computer graphics and more specifically <em>Unity3D</em> in a short amount of time for the prototype. Figuring out how to make two things talk to each other that otherwise would not (Arduino and NodeJS, NodeJS and Processing/Unity) under pressure was key and it took some exerience to be able to tell what would and what wouldn&#8217;t work from a technical perspective.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[A taste of Unity]]></title>
     <link href="http://bloomingbridges.github.com/Sammelsurium/a-taste-of-unity/"/>
     <updated>2012-11-13T22:50:00+00:00</updated>
@@ -349,6 +392,19 @@
 An artwork inspired by Plymouth-based Illustrator <a href="http://www.helena-coard.co.uk">Helena Coard</a></p>
 
 <p><img src="https://dl.dropbox.com/u/998319/DAT/lilyfinal.png" alt="bloomingbridges v6 logo" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The blogjectosphere]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/the-blogjectosphere/"/>
+    <updated>2012-11-03T13:10:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/the-blogjectosphere</id>
+    <content type="html"><![CDATA[<p>In our first <em>Everyware</em> seminar we tried to group and make sense of all the new terminology that revolves around the <em>Internet of Things</em>. Certainly too big an endeavour as most of the names for networked objects were borrowed from science-fiction and there isn&#8217;t just one author with one view of the world.</p>
+
+<p>One of the more interesting naming conventions is that of a &#8220;blogject&#8221;, an object that blogs. While it may sound somewhat disrespectful to journalism to call a stream of logged sensor values a &#8220;blog&#8221;, it fulfills the same purpose: to stir up conversation. It doesn&#8217;t matter whether your blogject is in fact a coconut measuring noise pollution or a pigeon reporting on a city&#8217;s air quality, their existence is always justified in that they allow us to learn about things we normally would not be able to (in case of the pigeons) or in that we place them in the environment as part of our political agenda.</p>
+
+<p>Once a thing is considered useful it becomes more than a lifeless object, it becomes part of our society.</p>
 ]]></content>
   </entry>
   
@@ -542,63 +598,6 @@ Sunday - orange
 <p>And since we&#8217;re at it, why not throw a competitive element into the mix? It literally blew my mind when I learned that schools in England are divided up in houses like in the <em>Harry Potter</em> universe. What all this means will require another blog entry to explain. Flo out.</p>
 
 <p><img src="https://dl.dropbox.com/u/998319/DAT/houses.jpg" alt="HP houses" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Anxiety in Manhattan]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/anxiety-in-manhattan/"/>
-    <updated>2012-10-09T01:48:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/anxiety-in-manhattan</id>
-    <content type="html"><![CDATA[<p>Following up on the idea from last week&#8217;s session of making a game that will let people experience <em>Generalized Anxiety Disorder</em> first-hand, it is now at the time to talk details, visual style in particular.</p>
-
-<p>Simply put, the objective is to walk from the one side of the screen to the other, like in many many other games before. Thankfully, our idea requires just a single platform and only minor modifications to the game engine ;) Now here&#8217;s the catch: Your avatar will die horrible deaths along the way (being stomped by <em>Godzilla</em>, struck by lightning, hit by a bus) at seemingly random moments. This will -  hopefully - make the player (i.e. you) hesitate to progress in the game, thus creating anxiety of the simple task that is crossing the street. Eventually you pass the crossing without any problems whatsoever and only then will you notice that all previous attempts of doing so took place in the character&#8217;s imagination only. The final screen will show some information on the disorder in order - pardon - to raise awareness.</p>
-
-<p>Watson seemed pretty keen to try making some 8-bit retro graphics for the game, which is fine by me as no graphic style seems either more or less suitable for this kind of &#8220;game&#8221;. In order to put the player in a familiar (at least iconic), peaceful and realistic environment I suggested to model the screen after a crossing in New York City. Here&#8217;s moodboard for the setting that I have in mind:</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/anxiety_moodboard1.jpg" alt="Setting moodboard" /></p>
-
-<p>And another one that depicts a variety of retro styles that we might end up with:</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/anxiety_moodboard2.jpg" alt="Visual style moodboard" /></p>
-
-<p>Finally, a snapshot of our progress for the dev diary:</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/anxiety_preview.png" alt="Visual style moodboard" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Game Design 101]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/game-design-101/"/>
-    <updated>2012-10-08T01:23:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/game-design-101</id>
-    <content type="html"><![CDATA[<p>Tough luck. As students in the year prior complained about having to do too much programming for this module, this time around there will be next to none (at least for the first couple of weeks). Instead of relying on existing Flash skills to create a portfolio-extending piece of interactive art that can be put up on the internet and enjoyed by many, we will be working with Simon&#8217;s JavaScript-based (and rather limited) <a href="https://github.com/DAT303/PUP-Game-Engine">PUP Game Engine</a> for the time being.</p>
-
-<p>And it doesn&#8217;t end here, we also get to do ALL THE THINGS that I spent most of my free time doing anyway: thinking up ideas for games. Heck, I even do it in the shower..
-So anyway, let&#8217;s approach this with an open mind and play the game, if you pardon my pun.
-We employed a variety of techniques to come up with ideas for a small game, looking at random wikipedia articles being one of them.</p>
-
-<p>Our group stumbled upon the following:</p>
-
-<ul>
-<li><a href="http://en.wikipedia.org/wiki/Varicella_(video_game)">Varicella</a> (a text-adventure set in Venice during the Renaissance)</li>
-<li>South-East Asia</li>
-<li><a href="http://en.wikipedia.org/wiki/Generalized_anxiety_disorder">Generalized anxiety disorder</a> (a disorder akin to severe paranoia)</li>
-</ul>
-
-
-<p>And those combined into the worst possible idea for a game imaginable resulted in:</p>
-
-<blockquote><p>&#8220;An Italian piece of interactive fiction where you have to go into the city of Venice so you can witness your daughter giving birth to her child. Unfortunately you suffer from Alzheimer&#8217;s disease, so throughout the game you forget about commands, items you collected, your whereabouts or even how to spell.&#8221;</p></blockquote>
-
-<p>The one-legged hamster that has to prevent the JFK assassination from happening was another one of my favourites. All jokes aside, I think we&#8217;ll be sticking to our original idea, which I happen to talk about in more detail in another blog post.</p>
-
-<p>As a final thought experiment we&#8217;ve been asked to try and combine our two favourite games and think of how something like that could actually made possible. In my case that would be <em>Thirty Flights of Loving</em> and <em>Wipeout</em>, a narrative-heavy racing game in which you hardly ever get to control a vehicle. Oh and of course jumpcuts! :D</p>
-
-<p>Later on I came across this gem by accident, hidden deep within the depths of the University library: <em>How to make Things with Videogames</em> by Ian Bogost. So far I can only recommend it.</p>
-
-<p><img src="http://www.creativeapplications.net/wp-content/uploads/2012/01/bogost-videogames-cover-640x480.jpg" alt="book cover" /></p>
 ]]></content>
   </entry>
   
