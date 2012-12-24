@@ -4,7 +4,7 @@
   <title><![CDATA[blooming bridges gradually graduating]]></title>
   <link href="http://bloomingbridges.github.com/Sammelsurium/atom.xml" rel="self"/>
   <link href="http://bloomingbridges.github.com/Sammelsurium/"/>
-  <updated>2012-12-21T20:55:51+00:00</updated>
+  <updated>2012-12-24T15:11:08+00:00</updated>
   <id>http://bloomingbridges.github.com/Sammelsurium/</id>
   <author>
     <name><![CDATA[Florian Brueckner]]></name>
@@ -325,6 +325,39 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[FYP: Technologies]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/fyp-technologies-used/"/>
+    <updated>2012-11-09T02:54:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/fyp-technologies-used</id>
+    <content type="html"><![CDATA[<p>The technology aspect of the <em>IN//CUBUS</em> project regards twofold: the hardware that is reponsible for the visual feedback and the software running on both the mobile clients and the server running on a machine small enough to fit into the sculpture (<em>Raspberry Pi</em> or perhaps borrow a <em>Mac Mini</em>?).</p>
+
+<h3>Electronics</h3>
+
+<p>For the grabbing your attention part I was thinking at least two bright LEDs, one white (for general ominous glowing) and a red one for feedback. For the physical map I will most likely buy a pre-built LED matrix, for it gives me constraints in terms of how many rooms I have to manage per session. Unfortunately they never seem to come with blue LEDs and if I wanted the sculpture to be any bigger I&#8217;d have to get them in a power of two..</p>
+
+<p>Furthermore will I need a handful of proximity sensors and or pressure pads to check for nearby gallery visitors. The electronics will be powered by my trusted <em>Arduino Uno</em> to keep the cost down.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/FYP/ledmatrixfinished.jpg" alt="led matrix" /></p>
+
+<h3>Enclosure</h3>
+
+<p>For the enclosure I will need a semi-seethrough material like frosted glass or if I really can&#8217;t afford it tracing paper. Here&#8217;s a guide for constructing a <a href="http://www.instructables.com/id/LED-Cube-Night-Light/">LED cube night light</a> over at instructables.com using scratched acryllic sheets and a single LED and glue.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/FYP/FSRRUXDG5FR5LWG.LARGE.jpg" alt="LED Night Light" /></p>
+
+<h3>Enchantment</h3>
+
+<p>On the software side of things we&#8217;ll have the usual combination of <em>Node</em>, <em>JavaScript</em>, <em>WebSockets</em> and either <em>HTML5 Canvas</em> or <em>Flash</em> depending on whether I get either enough demo devices or too fed up with trying to set up a Linux wifi hotspot.</p>
+
+<p>If worse comes to worst I can always grab a copy of <em>Mozilla</em>&#8217;s browser MMORPG experiment <em>BrowserQuest</em> and modify it according to my needs.</p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/FYP/promo-title.jpg" alt="BrowserQuest" /></p>
+
+<p>Play <a href="http://browserquest.mozilla.org">Mozilla&#8217;s BrowserQuest</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The democratisation of TV privileges]]></title>
     <link href="http://bloomingbridges.github.com/Sammelsurium/the-democratisation-of-tv-privileges/"/>
     <updated>2012-11-03T13:27:00+00:00</updated>
@@ -392,6 +425,38 @@
 An artwork inspired by Plymouth-based Illustrator <a href="http://www.helena-coard.co.uk">Helena Coard</a></p>
 
 <p><img src="https://dl.dropbox.com/u/998319/DAT/lilyfinal.png" alt="bloomingbridges v6 logo" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[FYP: Aesthetics]]></title>
+    <link href="http://bloomingbridges.github.com/Sammelsurium/fyp-aesthetics/"/>
+    <updated>2012-11-03T13:18:00+00:00</updated>
+    <id>http://bloomingbridges.github.com/Sammelsurium/fyp-aesthetics</id>
+    <content type="html"><![CDATA[<p>What follows is a set of images that have influenced my aesthetic vision of <strong>IN//CUBUS</strong>, a moodboard if you will.</p>
+
+<h3>Existing installations</h3>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/FYP/fearful_symmetry.jpg" alt="Fearful Symmetry" /></p>
+
+<p><a href="http://www.bbc.co.uk/news/technology-19357951">Ruairi Glynn&#8217;s robot puppetry piece &#8216;Fearful Symmetry&#8217; on BBC</a></p>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/FYP/UFO.jpg" alt="UFO by Ross Lovegrove" /></p>
+
+<p><a href="http://rcruzniemiec.tumblr.com/post/32942339132/ufo-ross-lovegrove-the-visitors-and-travellers">UFO by Ross Lovegrove</a></p>
+
+<h3>Materials</h3>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/FYP/OrangeSphere1967CastPolyester.jpg" alt="" />
+<img src="https://dl.dropbox.com/u/998319/DAT/FYP/black_mass.jpg" alt="" />
+<img src="https://dl.dropbox.com/u/998319/DAT/FYP/ethrnorr.gif" alt="" />
+<img src="https://dl.dropbox.com/u/998319/DAT/FYP/cryptic.jpg" alt="" /></p>
+
+<h3>Interior</h3>
+
+<p><img src="https://dl.dropbox.com/u/998319/DAT/FYP/gba-006.jpg" alt="" />
+<img src="https://dl.dropbox.com/u/998319/DAT/FYP/led_cubes.jpg" alt="" />
+<img src="https://dl.dropbox.com/u/998319/DAT/FYP/17.jpg" alt="" /></p>
 ]]></content>
   </entry>
   
@@ -554,50 +619,6 @@ Sunday - orange
 <p>It certainly holds a certain novelty to attach a phone to a phone, but when plugged into a computer for instance it becomes an interface rather than an unwieldy extension. With the help of a sound shield one could have an Arduino play holding or elevator music for eternity through the handset whenever it&#8217;s picked up. With the help of capacitive sensors one could measure the tolerance levels of gallery viewers and visualise them on a nearby wall in one way or other.</p>
 
 <p>I am not taking this anywhere, this entry simply marks the beginning of a series of blog posts where I jot down the more shareworthy ideas that cross my mind.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Birdwire]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/birdwire/"/>
-    <updated>2012-10-14T23:47:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/birdwire</id>
-    <content type="html"><![CDATA[<p>Thanks to Ben and Phil we now got a nice little website featuring an informative short clip up <a href="http://www.benashman.co.uk/p/birdwire">http://www.benashman.co.uk/p/birdwire</a>. You can follow the latest and breaking chitter via <a href="http://www.twitter.com/birdwireapp">@birdwireapp</a>.</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_site.png" alt="birdwire website" /></p>
-
-<p>Meanwhile I&#8217;ve been busy refactoring my code and adding a couple of features. For instance you can now flip a switch in the interface and the interpreter will match your input against a dictionary and try to make sense of it. This will make for a much more meaningful output.</p>
-
-<p>Furthermore can the Arduino&#8217;s sensor thresholds and other options be set dynamically from within the Processing sketch.</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/birdwire_sketch.png" alt="birdwire beta screenshot" /></p>
-
-<p>There are still a couple of edge cases and minor bugs that need my attention, but it will do for the presentation tomorrow. Once I&#8217;m happy I shall release the code to the general public. So if you&#8217;re keen on trying it out for yourself, you can either come along tomorrow, or simply keep an eye on my <a href="http://www.github.com/bloomingbridges">GitHub</a> ;)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Fake Sound of Progress]]></title>
-    <link href="http://bloomingbridges.github.com/Sammelsurium/the-fake-sound-of-progress/"/>
-    <updated>2012-10-12T19:47:00+01:00</updated>
-    <id>http://bloomingbridges.github.com/Sammelsurium/the-fake-sound-of-progress</id>
-    <content type="html"><![CDATA[<p>Over the weekend we&#8217;ve had our first major breakdown: In talking to the high-schoolers (our potential audience) last Friday it crystallised that they weren&#8217;t even aware of the wall&#8217;s existence nor did they show much interest in learning about its rich history.</p>
-
-<p>We were also worried that we didn&#8217;t have enough data to play with, so Ben wrote a web interface that allowed locals to <a href="http://datwall.herokuapp.com/">submit their memories of the wall to a database</a> whilst I, mostly due to a lack of direction, started writing a framework for displaying different types of media from said database in <em>Processing</em>. This way we could have miniature bricks cut from the Devonport wall, each housing an RFID tag, which could then be reassembled in a variety of ways while at the same time displaying their content.</p>
-
-<p>We thought we were on the right track with this one. Once our database was in place, teachers could associate bricks with their own teaching material and use the visualisation as a presentation tool.</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/wonderwall.png" alt="WonderWall preloader" /></p>
-
-<p>At the same time, our architect Miguel kept coming up with new designs for our space, which kept pushing the project into all kinds of wrong directions on a daily basis. One element that persisted throughout however, was the use of miniature bricks as an interface to a projection / installation.</p>
-
-<p>At the time there was a lot of confusion over the brief as well. It read &#8220;design for an outdoor learning space&#8221;, but all we got were sketches for an indoor auditorium and hallways. Future-proof you say? Does it even need to relate to the wall at all? Why does the assignment for group 3a and b look so drastically different, but offer only limited additional information?</p>
-
-<p>So we thought and fought about it some more and we eventually came up with an idea that would work in any type of environment and which would not be concerned with the Devonport wall so much: We&#8217;d teach kids about the environment and how the wall was just a metaphor for recycling.</p>
-
-<p>And since we&#8217;re at it, why not throw a competitive element into the mix? It literally blew my mind when I learned that schools in England are divided up in houses like in the <em>Harry Potter</em> universe. What all this means will require another blog entry to explain. Flo out.</p>
-
-<p><img src="https://dl.dropbox.com/u/998319/DAT/houses.jpg" alt="HP houses" /></p>
 ]]></content>
   </entry>
   
